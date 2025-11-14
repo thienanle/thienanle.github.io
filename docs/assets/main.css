@@ -245,9 +245,6 @@ table td {
 .site-nav .page-link:not(:last-child) {
   margin-right: 2rem;
 }
-.site-nav .page-link.active {
-  font-weight: bold;
-}
 @media screen and (max-width: 600px) {
   .site-nav {
     background-color: #fbfdff;
@@ -707,14 +704,15 @@ figure {
 
 aside {
   background-color: rgb(236.9568, 237.1, 237.2432);
-  padding: 2em;
-  border-radius: 1em;
-  margin-bottom: 2em;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
 }
 aside img {
   float: right;
-  width: 6em;
-  margin-left: 2em;
+  width: 5.5rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
 }
 aside p:last-child {
   margin-bottom: 0;
